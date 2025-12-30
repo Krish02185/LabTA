@@ -1,0 +1,28 @@
+{
+  "VAR_SCOPE_01": {
+    "title": "Variables and Scope",
+    "language": ["C", "Java"],
+    "lab_week": "Week 2",
+    "manual_section": "2.1",
+    "learning_objective": "Understand variable declaration, initialization, and scope rules",
+    "keywords": ["declaration", "scope", "lifetime"]
+  },
+
+  "OBJ_INIT_02": {
+    "title": "Object Creation and Initialization",
+    "language": ["Java"],
+    "lab_week": "Week 4",
+    "manual_section": "4.2",
+    "learning_objective": "Learn how objects are created and referenced in memory",
+    "keywords": ["object", "null", "reference"]
+  },
+
+  "ARRAY_03": {
+    "title": "Arrays and Indexing",
+    "language": ["C", "Java"],
+    "lab_week": "Week 3",
+    "manual_section": "3.4",
+    "learning_objective": "Safely iterate over arrays using valid indices",
+    "keywords": ["array", "loop", "bounds"]
+  }
+}

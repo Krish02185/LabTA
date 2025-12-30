@@ -1,0 +1,48 @@
+{
+  "undeclared_variable": {
+    "languages": ["C", "Java"],
+    "error_patterns": [
+      "undeclared",
+      "cannot find symbol"
+    ],
+    "concept": "Variable Declaration and Scope",
+    "severity": "syntax",
+    "hint_template": [
+      "A variable is being used before the compiler knows about it.",
+      "Think about where variables are usually declared.",
+      "Check whether this variable is declared in the correct scope."
+    ],
+    "lab_reference_id": "VAR_SCOPE_01"
+  },
+
+  "null_pointer": {
+    "languages": ["Java"],
+    "error_patterns": [
+      "NullPointerException"
+    ],
+    "concept": "Object Initialization",
+    "severity": "runtime",
+    "hint_template": [
+      "An object is being accessed before it is created.",
+      "What does it mean when a reference points to null?",
+      "Check where the object should be initialized."
+    ],
+    "lab_reference_id": "OBJ_INIT_02"
+  },
+
+  "array_index_out_of_bounds": {
+    "languages": ["C", "Java"],
+    "error_patterns": [
+      "ArrayIndexOutOfBoundsException",
+      "out of bounds"
+    ],
+    "concept": "Array Bounds",
+    "severity": "runtime",
+    "hint_template": [
+      "An array is being accessed outside its valid range.",
+      "What is the maximum valid index for an array of size N?",
+      "Check how your loop condition relates to the array length."
+    ],
+    "lab_reference_id": "ARRAY_03"
+  }
+}
